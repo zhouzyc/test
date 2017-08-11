@@ -1,0 +1,27 @@
+{
+    "name": "zhouzyc/test",
+    "description": "composer package development",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fly",
+            "email": "609435061@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "test\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
